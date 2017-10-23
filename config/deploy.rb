@@ -2,7 +2,7 @@
 lock "3.7.2"
 
 set :application, "EscamboApp"
-set :repo_url, "https://github.com/jacksonpires/rails_completo_udemy_modulo3.git"
+set :repo_url, ""
 
 # Default branch is :master
 # ask :branch, `git rev-parse --abbrev-ref HEAD`.chomp

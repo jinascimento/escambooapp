@@ -14,3 +14,8 @@ sudo apt-get install imagemagick libmagickwand-dev
 sudo apt-get update
 sudo apt-get install graphviz
 ```
+## Executar projeto
+
+* bundle install
+* rake dev:setup
+* foreman start

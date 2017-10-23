@@ -2,9 +2,9 @@
   messages:
     confirm: Tem certeza?
     confirm_with: Você deseja realmente excluir (<b>%{item}</b>)?
-    listing: Listando %{model}
-    editing: Editando %{model}
-    new: Novo %{model}
+    listing: Listando
+    editing: Editando
+    new: Novo
     errors: ocorreram...
     created: Item criado com sucesso!
     created_with: "%{item} foi criado com sucesso!"

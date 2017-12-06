@@ -45,6 +45,8 @@ gem 'prawn-rails'
 gem 'wicked_pdf'
 # Create beautiful JavaScript charts with one line of Ruby
 gem 'chartkick'
+# Intelligent search made easy with Rails and Elasticsearch
+gem 'searchkick'
 source 'https://rails-assets.org' do
   # Bootstrap
   gem 'rails-assets-bootstrap', '3.3.7'

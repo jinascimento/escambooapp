@@ -2,15 +2,12 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="b14827b9-b5db-443f-9216-b94a7546a082" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/assets/javascripts/charts.js" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/escambooapp.iml" afterPath="$PROJECT_DIR$/.idea/escambooapp.iml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Gemfile" afterPath="$PROJECT_DIR$/Gemfile" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Gemfile.lock" afterPath="$PROJECT_DIR$/Gemfile.lock" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/controllers/backoffice/dashboard_controller.rb" afterPath="$PROJECT_DIR$/app/controllers/backoffice/dashboard_controller.rb" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/views/backoffice/dashboard/index.html.erb" afterPath="$PROJECT_DIR$/app/views/backoffice/dashboard/index.html.erb" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/views/layouts/backoffice.html.erb" afterPath="$PROJECT_DIR$/app/views/layouts/backoffice.html.erb" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/config/initializers/assets.rb" afterPath="$PROJECT_DIR$/config/initializers/assets.rb" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/controllers/site/search_controller.rb" afterPath="$PROJECT_DIR$/app/controllers/site/search_controller.rb" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/models/ad.rb" afterPath="$PROJECT_DIR$/app/models/ad.rb" />
     </list>
     <ignored path="$PROJECT_DIR$/.bundle/" />
     <ignored path="$PROJECT_DIR$/components/" />
@@ -47,6 +44,16 @@
           </provider>
         </entry>
       </file>
+      <file leaf-file-name="search_controller.rb" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/app/controllers/site/search_controller.rb">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="105">
+              <caret line="7" column="0" lean-forward="true" selection-start-line="7" selection-start-column="0" selection-end-line="7" selection-end-column="0" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
       <file leaf-file-name="dashboard_controller.rb" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/app/controllers/backoffice/dashboard_controller.rb">
           <provider selected="true" editor-type-id="text-editor">
@@ -57,11 +64,33 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="index.html.erb" pinned="false" current-in-tab="true">
+      <file leaf-file-name="Gemfile" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/Gemfile">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="191">
+              <caret line="48" column="16" lean-forward="false" selection-start-line="48" selection-start-column="16" selection-end-line="48" selection-end-column="16" />
+              <folding>
+                <marker date="1512602806000" expanded="true" signature="4058:4063" ph="do ... end" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="ad.rb" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/app/models/ad.rb">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="207">
+              <caret line="32" column="0" lean-forward="true" selection-start-line="32" selection-start-column="0" selection-end-line="32" selection-end-column="0" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="index.html.erb" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/app/views/backoffice/dashboard/index.html.erb">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="30">
-              <caret line="2" column="4" lean-forward="false" selection-start-line="2" selection-start-column="4" selection-end-line="2" selection-end-column="4" />
+            <state relative-caret-position="75">
+              <caret line="5" column="0" lean-forward="false" selection-start-line="5" selection-start-column="0" selection-end-line="5" selection-end-column="0" />
               <folding />
             </state>
           </provider>
@@ -141,7 +170,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/app/views/site/shared/_ads.html.erb" />
         <option value="$PROJECT_DIR$/app/views/site/profile/ads/shared/_form.html.erb" />
         <option value="$PROJECT_DIR$/config/locales/profile_menu.pt-BR.yml" />
         <option value="$PROJECT_DIR$/app/views/layouts/profile.html.erb" />
@@ -176,7 +204,6 @@
         <option value="$PROJECT_DIR$/config/locales/messages.pt-BR.yml" />
         <option value="$PROJECT_DIR$/errors.rb" />
         <option value="$PROJECT_DIR$/README.md" />
-        <option value="$PROJECT_DIR$/app/models/ad.rb" />
         <option value="$PROJECT_DIR$/app/controllers/site/home_controller.rb" />
         <option value="$PROJECT_DIR$/config/initializers/session_store.rb" />
         <option value="$PROJECT_DIR$/app/views/site/ad_detail/_show.html.erb" />
@@ -186,12 +213,14 @@
         <option value="$PROJECT_DIR$/app/controllers/site/ad_detail_controller.rb" />
         <option value="$PROJECT_DIR$/app/views/layouts/pdf.pdf.erb" />
         <option value="$PROJECT_DIR$/app/views/site/ad_detail/show.pdf.erb" />
-        <option value="$PROJECT_DIR$/Gemfile" />
         <option value="$PROJECT_DIR$/app/assets/javascripts/charts.js" />
         <option value="$PROJECT_DIR$/app/controllers/backoffice/dashboard_controller.rb" />
         <option value="$PROJECT_DIR$/config/initializers/assets.rb" />
         <option value="$PROJECT_DIR$/app/views/layouts/backoffice.html.erb" />
         <option value="$PROJECT_DIR$/app/views/backoffice/dashboard/index.html.erb" />
+        <option value="$PROJECT_DIR$/Gemfile" />
+        <option value="$PROJECT_DIR$/app/models/ad.rb" />
+        <option value="$PROJECT_DIR$/app/controllers/site/search_controller.rb" />
       </list>
     </option>
   </component>
@@ -272,7 +301,7 @@
     <property name="settings.editor.selected.configurable" value="org.jetbrains.plugins.ruby.settings.RubyActiveModuleSdkConfigurable" />
     <property name="com.intellij.database.dataSource.DataSourceTemplate" value="MySQL&#10;Sqlite (Xerial)" />
     <property name="run.code.analysis.last.selected.profile" value="pProject Default" />
-    <property name="SearchEverywhereHistoryKey" value="backoffice&#9;FILE&#9;file:///Users/macbook/RubymineProjects/escambooapp/app/views/layouts/backoffice.html.erb&#10;assets&#9;FILE&#9;file:///Users/macbook/RubymineProjects/escambooapp/config/initializers/assets.rb&#10;dashboard/index&#9;FILE&#9;file:///Users/macbook/RubymineProjects/escambooapp/app/views/backoffice/dashboard/index.html.erb&#10;dash&#9;null&#9;null&#10;application.js&#9;FILE&#9;file:///Users/macbook/RubymineProjects/escambooapp/app/assets/javascripts/application.js&#10;gemfile&#9;FILE&#9;file:///Users/macbook/RubymineProjects/escambooapp/Gemfile&#10;layouts/site&#9;FILE&#9;file:///Users/macbook/RubymineProjects/escambooapp/app/views/layouts/site.html.erb&#10;ad_detail&#9;FILE&#9;file:///Users/macbook/RubymineProjects/escambooapp/app/controllers/site/ad_detail_controller.rb&#10;_show&#9;FILE&#9;file:///Users/macbook/RubymineProjects/escambooapp/app/views/site/ad_detail/_show.html.erb&#10;session_s&#9;FILE&#9;file:///Users/macbook/RubymineProjects/escambooapp/config/initializers/session_store.rb" />
+    <property name="SearchEverywhereHistoryKey" value="search&#9;FILE&#9;file:///Users/macbook/RubymineProjects/escambooapp/app/controllers/site/search_controller.rb&#10;ad&#9;FILE&#9;file:///Users/macbook/RubymineProjects/escambooapp/app/models/ad.rb&#10;gemfile&#9;FILE&#9;file:///Users/macbook/RubymineProjects/escambooapp/Gemfile&#10;backoffice&#9;FILE&#9;file:///Users/macbook/RubymineProjects/escambooapp/app/views/layouts/backoffice.html.erb&#10;assets&#9;FILE&#9;file:///Users/macbook/RubymineProjects/escambooapp/config/initializers/assets.rb&#10;dashboard/index&#9;FILE&#9;file:///Users/macbook/RubymineProjects/escambooapp/app/views/backoffice/dashboard/index.html.erb&#10;dash&#9;null&#9;null&#10;application.js&#9;FILE&#9;file:///Users/macbook/RubymineProjects/escambooapp/app/assets/javascripts/application.js&#10;layouts/site&#9;FILE&#9;file:///Users/macbook/RubymineProjects/escambooapp/app/views/layouts/site.html.erb&#10;ad_detail&#9;FILE&#9;file:///Users/macbook/RubymineProjects/escambooapp/app/controllers/site/ad_detail_controller.rb&#10;_show&#9;FILE&#9;file:///Users/macbook/RubymineProjects/escambooapp/app/views/site/ad_detail/_show.html.erb&#10;session_s&#9;FILE&#9;file:///Users/macbook/RubymineProjects/escambooapp/config/initializers/session_store.rb" />
   </component>
   <component name="RecentsManager">
     <key name="MoveFile.RECENT_KEYS">
@@ -687,7 +716,7 @@
       <workItem from="1508231861315" duration="214000" />
       <workItem from="1508577420912" duration="82000" />
       <workItem from="1508727658038" duration="2325000" />
-      <workItem from="1512590042258" duration="3471000" />
+      <workItem from="1512590042258" duration="4716000" />
     </task>
     <task id="LOCAL-00001" summary="Adicionado edição e criação de anúncios">
       <created>1505677127621</created>
@@ -742,7 +771,7 @@
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="125325000" />
+    <option name="totallyTimeSpent" value="126570000" />
   </component>
   <component name="TodoView" selected-index="3">
     <todo-panel id="selected-file">
@@ -1056,22 +1085,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/app/models/ad.rb">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="540">
-          <caret line="36" column="8" lean-forward="true" selection-start-line="36" selection-start-column="8" selection-end-line="36" selection-end-column="8" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/controllers/site/search_controller.rb">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="30">
-          <caret line="2" column="9" lean-forward="false" selection-start-line="2" selection-start-column="9" selection-end-line="2" selection-end-column="9" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/config/initializers/session_store.rb">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="30">
@@ -1144,16 +1157,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/Gemfile">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="160">
-          <caret line="35" column="14" lean-forward="false" selection-start-line="35" selection-start-column="14" selection-end-line="35" selection-end-column="14" />
-          <folding>
-            <marker date="1512594299000" expanded="true" signature="3981:3986" ph="do ... end" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/app/assets/javascripts/charts.js">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="15">
@@ -1206,8 +1209,34 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/app/views/backoffice/dashboard/index.html.erb">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="30">
-          <caret line="2" column="4" lean-forward="false" selection-start-line="2" selection-start-column="4" selection-end-line="2" selection-end-column="4" />
+        <state relative-caret-position="75">
+          <caret line="5" column="0" lean-forward="false" selection-start-line="5" selection-start-column="0" selection-end-line="5" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Gemfile">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="191">
+          <caret line="48" column="16" lean-forward="false" selection-start-line="48" selection-start-column="16" selection-end-line="48" selection-end-column="16" />
+          <folding>
+            <marker date="1512602806000" expanded="true" signature="4058:4063" ph="do ... end" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/models/ad.rb">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="207">
+          <caret line="32" column="0" lean-forward="true" selection-start-line="32" selection-start-column="0" selection-end-line="32" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/controllers/site/search_controller.rb">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="105">
+          <caret line="7" column="0" lean-forward="true" selection-start-line="7" selection-start-column="0" selection-end-line="7" selection-end-column="0" />
           <folding />
         </state>
       </provider>

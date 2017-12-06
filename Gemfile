@@ -43,6 +43,8 @@ gem 'lerolero_generator'
 # Generate html to pdf
 gem 'prawn-rails'
 gem 'wicked_pdf'
+# Create beautiful JavaScript charts with one line of Ruby
+gem 'chartkick'
 source 'https://rails-assets.org' do
   # Bootstrap
   gem 'rails-assets-bootstrap', '3.3.7'

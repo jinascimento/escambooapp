@@ -47,6 +47,8 @@ gem 'wicked_pdf'
 gem 'chartkick'
 # Intelligent search made easy with Rails and Elasticsearch
 gem 'searchkick'
+# Background jobs
+gem 'sidekiq'
 source 'https://rails-assets.org' do
   # Bootstrap
   gem 'rails-assets-bootstrap', '3.3.7'
